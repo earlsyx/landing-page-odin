@@ -1,5 +1,7 @@
 # landing-page-odin
 
+link for the website https://earlsyx.github.io/landing-page-odin/
+
 For this project, I will be creating an entire web page from 
 the odin project. 
 
