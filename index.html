@@ -4,39 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Header Logo</h1> 
-    <h2>header link one</h2>
-    <h2>header link two</h2>
-    <h2>header link three</h2>
+    <header>
+    <div class="header-container">
+        <nav class="header-nav">
+        <div class="header-logo">
+            WATCH.me
+        </div>
+        <div class="header-links">
+            <ul>
+                <li><a class="header-link" href="#">Anime</a></li>
+                <li><a class="header-link" href="#">Kdrama</a></li>
+                <li><a class="header-link" href="#">Western</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header-hero">
+        <div class="header-hero-left">
+            <h1>Your Name (2016) </h1>
+            <h3>
+                Two teenagers share a profound, magical connection upon   discovering they are swapping bodies. 
+              
+                Things manage to become even 
+                more complicated when the boy and girl decide to meet in person.
+            </h3>
+            <button class="sign-up-button">Watch </button>
+        </div>
+        <div class="header-hero-right">
+            <img src="imgs/kimi-no-nawa-landscape.jpg">
+        </div>
+    </div>
+</div>
+</header>
+<div class="content">
+    <section class="random-information">
+        <div class="information-header">
+            <h2>Makoto Shinkai's Movies</h1>
+     </div>
+     <div class="information-thumbs">
+        <div class="thumb-and-caption">
+            <img class="thumb" src="./imgs/movie-4.PNG">
+            <div class="caption">
+                Suzume (2023)
+            </div>
+        </div>
+        <div class="thumb-and-caption">
+            <img class="thumb" src="./imgs/movie-3.PNG">
+            <div class="caption">
+                Weathering with you <br>
+                (2019)
+            </div>
+        </div>
+        <div class="thumb-and-caption">
+            <img class="thumb" src="./imgs/movie-2.PNG">
+            <div class="caption">
+                Garden of Words (2013)
+            </div>
+        </div>
+        <div class="thumb-and-caption">
+            <img class="thumb" src="./imgs/movie-1.PNG">
+            <div class="caption">
+                5 Centimeters per <br> Second (2007)
+            </div>
+        </div>
+    </div>
 
-    <h1>This website is awesome </h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-        constrast </p>
+</section>
+<section class="quote">
+    <div class="quote">
+        “Maybe we tried to leave as much memories of ourselves with each other because we knew one day we wouldn't be together any more.”
 
-    <img src="./images/recipebanner.jpg.jpg" alt="placeholder">
+    </div>
+    <div class="signature">
+        - Makoto Shinkai, 5 Centimeters per Second
+    </div>
 
-    <h2>Some random information</h2>
+</div>
+</section>
 
-
-    <ul>
-        <li>this is some subtext under an illustration or image</li>
-        <li>this is some subtext under an illustration or image</li>
-        <li>this is some subtext under an illustration or image</li>
-        <li>this is some subtext under an illustration or image</li>
-    </ul>
-
-<p> This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe 
-    people will actually read it. Who knows? All I know is that it looks nice -Thor, God of Thunder.
-</p>
-
-<h3>Call to action! It's time!</h3>
-Sign up for our product by clicking that button right over there!   
-
-<button> Sign up</button>
-
-
-
+<section class="call-to-action">
+    <div class="call-to-action-content">
+        <div class="call-to-action-container">
+        <div class="call-to-action-text">
+            <h3>Don't Miss it! Sign up!</h3>
+            <h4>Sign up and watch all these movies by clicking that button right over there!</h4>
+        </div>
+        <button class="call-to-action-sign-up">
+            Sign up
+        </button>   
+    </div>
+</div>
+</section>
+<footer>
+    Copyright @ Earl Syx B. Hernandez 2023
+</footer>
 </body>
 </html>
